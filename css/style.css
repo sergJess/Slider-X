@@ -1,0 +1,40 @@
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+/*slider-x*/
+.x-slider-inner{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.x-slider-track{
+	display: flex;
+	transform: translateX(0);
+}
+.shifting{
+	transition: transform 0.4s ease-in-out;
+}
+.x-slide{
+	min-width: 100%;
+	min-height: 300px;
+	color: red;
+	background-color:#000;
+	font-size: 80px;
+	text-align: center;
+}
+.x-controls{
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+	column-gap: 50px;
+}
+.x-slider-button{
+	min-width: 60px;
+	color: rgb(177, 238, 210);
+	font-size: 22px;
+	padding: 5px 12px;
+	background-color: #0d7c9e;
+	border: 2px solid #e1f058;
+	border-radius: 8px;
+	cursor: pointer;
+}
